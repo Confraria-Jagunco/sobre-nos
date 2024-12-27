@@ -1,0 +1,190 @@
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe8100;
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+header>img {
+    width: 12rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 4rem 0;
+    padding: 0 5rem;
+}
+
+.mainText {
+    text-align: center;
+    width: 39rem;
+}
+
+.mainText>h1 {
+    font-family: "Open Sans", serif;
+    font-size: 30pt;
+}
+
+.mainText>p {
+    font-size: 12pt;
+    font-family: "Lexend Deca", serif;
+}
+
+#openGalery {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+#openGalery:hover {
+    background-color: #dbdbdb;
+    transition: ease 0.2s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #fe8100;
+}
+
+footer>img {
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+    width: 8rem;
+}
+
+.socialWides {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.socialWides>p>a {
+    color: #000000;
+}
+
+.socialWides>p>a:active {
+    color: rgb(72, 72, 72);
+}
+
+#copyright {
+    color: rgb(0, 0, 0);
+    font-family: "Lexend Deca", serif;
+    font-size: 10pt;
+    margin: 1.5rem 0 0 0;
+}
+
+@media (max-width: 850px) {
+    header {
+        padding: 0.8rem 1rem;
+    }
+
+    main {
+        margin: 0 0 2rem 0;
+        padding: 0;
+    }
+
+    .mainText {
+        width: 95%;
+    }
+}
+
+.displayImgSection {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c9;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.displayImgSection>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+.displayImgSection>div:nth-child(1)>button {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+.displayImgSection>div:nth-child(1)>button:nth-child(1) {
+    position: fixed;
+    left: 0.8rem;
+}
+
+.displayImgSection>div:nth-child(1)>button:nth-child(3) {
+    position: fixed;
+    right: 0.8rem;
+}
+
+.displayImgSection>div:nth-child(1)>button:hover {
+    background-color: #dbdbdb;
+    transition: ease 0.2s;
+}
+
+.displayImgSection>div:nth-child(1)>button:active {
+    background-color: #888888;
+    transition: none;
+}
+
+#display {
+    width: 90%;
+}
+
+.closeDisplayImgSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1rem;
+}
+
+.closeDisplayImgSection>button {
+    font-size: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+.closeDisplayImgSection>button:hover {
+    color: #9a9a9a;
+}
