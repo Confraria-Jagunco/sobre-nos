@@ -188,3 +188,7 @@ footer>img {
 .closeDisplayImgSection>button:hover {
     color: #9a9a9a;
 }
+
+#headerToHome, #footerToHome {
+    cursor: pointer;
+}
