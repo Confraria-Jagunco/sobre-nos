@@ -15,7 +15,7 @@ function openDisplayImg () {
 }
 
 const imagesList = [
-    "https://pbs.twimg.com/media/GfusP1xWUAASbDE?format=jpg&name=large", "https://pbs.twimg.com/media/GfusP0QWEAAaWbA?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQoWQAAim37?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNSX0AAh64_?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQiWAAAct5z?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNUWYAAdFH4?format=jpg&name=large"
+    "https://pbs.twimg.com/media/GfusP1xWUAASbDE?format=jpg&name=large", "https://pbs.twimg.com/media/GfusP0QWEAAaWbA?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz76_pW4AA7z_V?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQoWQAAim37?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz768jXUAACOtL?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNSX0AAh64_?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQiWAAAct5z?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNUWYAAdFH4?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz8FLWWEAAg3MJ?format=jpg&name=small"
 ];
 
 let index = 0;
