@@ -22,7 +22,7 @@ function openDisplayImg () {
 };
 
 const imagesList = [
-    "https://pbs.twimg.com/media/GfusP1xWUAASbDE?format=jpg&name=large", "https://pbs.twimg.com/media/GfusP0QWEAAaWbA?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz76_pW4AA7z_V?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQoWQAAim37?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz768jXUAACOtL?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNSX0AAh64_?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJQiWAAAct5z?format=jpg&name=large", "https://pbs.twimg.com/media/GfusJNUWYAAdFH4?format=jpg&name=large", "https://pbs.twimg.com/media/Gfz8FLWWEAAg3MJ?format=jpg&name=small"
+    "https://i.imgur.com/56IUsxI.jpeg", "https://i.imgur.com/Vn9lQJG.jpeg", "https://i.imgur.com/yqOkDOh.jpeg", "https://i.imgur.com/CTmHbm6.jpeg", "https://i.imgur.com/6xJCjOB.jpeg", "https://i.imgur.com/oS4Enxo.jpeg"
 ];
 
 let index = 0;
